@@ -13,6 +13,7 @@
 		AC87F1F023EDA27500A3F0B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87F1EE23EDA27500A3F0B7 /* Main.storyboard */; };
 		AC87F1F223EDA27500A3F0B7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC87F1F123EDA27500A3F0B7 /* Assets.xcassets */; };
 		AC87F1F523EDA27500A3F0B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC87F1F323EDA27500A3F0B7 /* LaunchScreen.storyboard */; };
+		AC87F1FE23EDA57400A3F0B7 /* mario.png in Resources */ = {isa = PBXBuildFile; fileRef = AC87F1FD23EDA57400A3F0B7 /* mario.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		AC87F1F123EDA27500A3F0B7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AC87F1F423EDA27500A3F0B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC87F1F623EDA27500A3F0B7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AC87F1FD23EDA57400A3F0B7 /* mario.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mario.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +42,7 @@
 		AC87F1DC23EDA27500A3F0B7 = {
 			isa = PBXGroup;
 			children = (
+				AC87F1FC23EDA56C00A3F0B7 /* images */,
 				AC87F1E723EDA27500A3F0B7 /* RollerCoaster */,
 				AC87F1E623EDA27500A3F0B7 /* Products */,
 			);
@@ -65,6 +68,14 @@
 				AC87F1F623EDA27500A3F0B7 /* Info.plist */,
 			);
 			path = RollerCoaster;
+			sourceTree = "<group>";
+		};
+		AC87F1FC23EDA56C00A3F0B7 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				AC87F1FD23EDA57400A3F0B7 /* mario.png */,
+			);
+			path = images;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +136,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AC87F1FE23EDA57400A3F0B7 /* mario.png in Resources */,
 				AC87F1F523EDA27500A3F0B7 /* LaunchScreen.storyboard in Resources */,
 				AC87F1F223EDA27500A3F0B7 /* Assets.xcassets in Resources */,
 				AC87F1F023EDA27500A3F0B7 /* Main.storyboard in Resources */,
